@@ -1,15 +1,16 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: I never know what to put in the subtitle section...
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is...well you can call me LG. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I have an epic beard
+- I'm passable at IT and Cyber
+- I like outside more than inside unless its hot
 
-What else do you need?
+There's a lot more but thats a start
 
 ### My story
 
