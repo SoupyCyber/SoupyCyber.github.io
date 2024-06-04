@@ -4,7 +4,7 @@ title: About me
 subtitle: I never know what to put in the subtitle section...
 ---
 
-My name is...well you can call me LG. I have the following qualities:
+My name is Levi, but on the internet I'm know as LeafyGeans. I have the following qualities:
 
 - I have an epic beard
 - I'm passable at IT and Cyber
