@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Holiday Headaches in Cybersecurity
-subtitle: 'Tis the Season for Cyber Shenanigans?
+subtitle: Tis the Season for Cyber Shenanigans?
 cover-img: /assets/img/Tired IT Woker.jpg
 thumbnail-img: /assets/img/Cyber Santa.jpg
 share-img: /assets/img/Cyber Santa.jpg
