@@ -2,9 +2,9 @@
 layout: post
 title: Holiday Headaches in Cybersecurity
 subtitle: 'Tis the Season for Cyber Shenanigans?
-cover-img: /assets/img/Tired IT Woker.webp
-thumbnail-img: /assets/img/Cyber Santa.webp
-share-img: /assets/img/Cyber Santa.webp
+cover-img: /assets/img/Tired IT Woker.jpg
+thumbnail-img: /assets/img/Cyber Santa.jpg
+share-img: /assets/img/Cyber Santa.jpg
 tags: [posts]
 author: L.
 ---
@@ -43,7 +43,7 @@ First off, let’s agree to make "Stop Clicking Suspicious Links" the official 2
 
 Here’s your survival checklist:
 
-    Educate your employees (again) about phishing and suspicious emails. Even Kevin in accounting. Especially Kevin.
+   - **Educate your employees** (again) about phishing and suspicious emails. Even Kevin in accounting. Especially Kevin.
    - **Patch and update everything.** Yes, even that dusty server no one wants to touch.
    - **Use multi-factor authentication.** Because a password like “LetMeIn123” doesn’t cut it anymore.
     - **Monitor your systems.** No, you can’t take the holidays off—neither do hackers.
