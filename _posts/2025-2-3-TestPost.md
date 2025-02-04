@@ -2,9 +2,9 @@
 layout: post
 title: Just a lil test post!
 subtitle: Can I upload things with images??
-cover-img: /assets/img/HackerSheep.jpg
-thumbnail-img: /assets/img/HackerSheepjpg
-share-img: /assets/img/Octo.jpg
+cover-img: assets/img/HackerSheep.png
+thumbnail-img: assets/img/HackerSheep.png
+share-img: assets/img/Octo.jpg
 tags: [posts]
 author: L.
 ---
