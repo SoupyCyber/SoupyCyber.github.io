@@ -37,7 +37,7 @@ Although many of us may not be a 24/7 shop, we can probably all agree that CTI i
 - This leads to **mental fatigue, stress, and eventual burnout** ([Cynet, 2023](https://www.cynet.com/resources/reports/)).
 
 ### 3️⃣ The Signal-to-Noise Ratio Problem
-Another problem is, not all threat intelligence is created equal. Many feeds generate **high volumes of low-quality alerts**, drowning out what actually matters.
+Another problem is not all threat intelligence is created equal. Many feeds generate **high volumes of low-quality alerts**, drowning out what actually matters.
 - **SOC teams ignore CTI alerts** because they’ve seen too many false positives ([Mandiant, 2023](https://www.mandiant.com/resources/reports)).
 - **Redundant intelligence wastes time**—as mentioned above, analysts spend **hours re-verifying known information** ([NIST SP 800-150](https://csrc.nist.gov/publications/detail/sp/800-150/final)).
 - **And critical threats get buried** in an ocean of low-risk indicators.
@@ -67,7 +67,7 @@ Use **Priority Intelligence Requirements (PIRs)** and **Specific Intelligence Re
 > *“Your job isn’t to collect intelligence. It’s to make intelligence useful.”*
 
 ### ✅ 3. Finally, and most importantly - Build a Culture That Supports Analyst Well-Being
-- **Rotate responsibilities** to prevent burnout. This method is helpful because it prevents there from being a singular "Go-To" person.
+- **Rotate responsibilities** to prevent burnout. This method is helpful as it prevents someone from being the singular "Go-to" individual.
 - **Create clear "off-duty" policies**—no one should be glued to alerts 24/7. Because if I've learned anything in my 2 years doing this, Analysts will watch alerts like a hawk - even when **they're not supposed too.**
 - **Give analysts better tools**—manual processes **increase stress** and **waste time**. Now - this can be a bit tricky. You might be limited by your companies funding - but do what you can!
 
