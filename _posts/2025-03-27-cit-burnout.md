@@ -45,7 +45,6 @@ Another problem is, not all threat intelligence is created equal. Many feeds gen
 > *“You don’t need more data. You need the right data.”*
 
 ---
-![ALERTS](/assets/images/Over-Alerted.png)
 
 ## How to Fix It: Smarter CTI, Not More CTI
 
