@@ -9,11 +9,6 @@ tags: [posts]
 author: L.
 ---
 
-# When News Isn't Intel... But Still Matters
-*CTI Analyst's Quiet Responsibility*
-
----
-
 ## That Story You Can't Scroll Past
 
 It’s 7:12 AM. You haven’t even logged in yet. You’re doom-scrolling in one hand, with coffee in the other...and then you see it:
