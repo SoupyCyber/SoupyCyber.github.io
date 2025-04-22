@@ -2,7 +2,7 @@
 layout: post
 title: When News Isn't Intel... But Still Matters
 subtitle: The CTI Analyst's Quiet Responsibility
-cover-img: assets/img/ai-tech-brain.jpg
+cover-img: assets/img/ai_tech_brain.jpg
 thumbnail-img: assets/img/Cyber-Coffee.jpg
 share-img: assets/img/Cyber-Coffee.jpg
 tags: [posts]
