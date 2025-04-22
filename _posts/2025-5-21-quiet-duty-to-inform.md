@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TWhen News Isn't Intel... But Still Matters
+title: When News Isn't Intel... But Still Matters
 subtitle: A CTI Analyst's Quiet Responsibility
 cover-img: assets/img/virtual-brain.jpg
 thumbnail-img: assets/img/Cyber-Coffee.png
