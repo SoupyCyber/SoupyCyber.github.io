@@ -23,6 +23,12 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Learn markdown: "https://www.markdowntutorial.com/"
+  IT/Cyber News:
+    - Krebs: "https://krebsonsecurity.com/"
+    - The Hacker News: "https://thehackernews.com/"
+    - Bleeping Computer: "https://www.bleepingcomputer.com/"
+  Tool:
+    - Wireshark: "https://www.wireshark.org/"
 
 ################
 # --- Logo --- #
