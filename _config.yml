@@ -27,7 +27,7 @@ navbar-links:
     - Krebs: "https://krebsonsecurity.com/"
     - The Hacker News: "https://thehackernews.com/"
     - Bleeping Computer: "https://www.bleepingcomputer.com/"
-  Tool:
+  Tools:
     - Wireshark: "https://www.wireshark.org/"
 
 ################
