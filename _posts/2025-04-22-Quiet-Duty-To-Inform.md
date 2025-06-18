@@ -11,7 +11,7 @@ author: L.
 
 ## That Story You Can't Scroll Past
 
-It’s 7:12 AM. You haven’t even logged in yet. You’re doom-scrolling in one hand, with coffee in the other...and then you see it:
+It’s 7:12 AM. You haven’t even logged intp your laptop yet. You’re doom-scrolling in one hand, with coffee in the other...and then you see it:
 
 **"Russian Ransomware Group Claims Responsibility for Attack on Regional Water Facility in Eastern Europe"**
 
