@@ -137,23 +137,17 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
-
-page-col: "#1A1A2E"    # Deep, dark sapphire blue/purple
-text-col: "#E8E8E8"    # Soft light gray
-link-col: "#FFD700"    # Rich gold accent – very striking against dark blue
-hover-col: "#DC143C"   # Deep crimson for a bold hover
-navbar-col: "#111124"  # Even deeper dark blue/purple
-navbar-text-col: "#E8E8E8"
-navbar-border-col: "#3A3D52" # Muted, slightly lighter border
-footer-col: "#111124"
-footer-text-col: "#9DA2AF" # Muted blue-grey for footer text
-footer-link-col: "#FFD700"
-footer-hover-col: "#DC143C"
-
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+page-col: "#2A2F2D"
+text-col: "#DCDCDC"
+link-col: "#F05D5D"
+hover-col: "#E27B58"
+navbar-col: "#212523"
+navbar-text-col: "#DCDCDC"
+navbar-border-col: "#4A524E"
+footer-col: "#212523"
+footer-text-col: "#9CA49C"
+footer-link-col: "#F05D5D"
+footer-hover-col: "#E27B58"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
