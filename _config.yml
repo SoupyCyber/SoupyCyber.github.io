@@ -139,17 +139,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#1A2222"
-text-col: "#E9EBE8"
-link-col: "#7DBB8B"
-hover-col: "#9BCB9E"
-navbar-col: "#141A1A"
-navbar-text-col: "#E9EBE8"
-navbar-border-col: "#353D3D"
-footer-col: "#141A1A"
-footer-text-col: "#8C9696"
-footer-link-col: "#7DBB8B"
-footer-hover-col: "#9BCB9E"
+page-col: "#1A1A2E"    # Deep, dark sapphire blue/purple
+text-col: "#E8E8E8"    # Soft light gray
+link-col: "#FFD700"    # Rich gold accent – very striking against dark blue
+hover-col: "#DC143C"   # Deep crimson for a bold hover
+navbar-col: "#111124"  # Even deeper dark blue/purple
+navbar-text-col: "#E8E8E8"
+navbar-border-col: "#3A3D52" # Muted, slightly lighter border
+footer-col: "#111124"
+footer-text-col: "#9DA2AF" # Muted blue-grey for footer text
+footer-link-col: "#FFD700"
+footer-hover-col: "#DC143C"
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
