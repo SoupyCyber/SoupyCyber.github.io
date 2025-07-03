@@ -37,7 +37,9 @@ Spoilers: They didn't.
 --------------------------------
 ### So...I started building my OWN Seat
 
-I don't think that needs a whole lot of explanation at the moment, so instead I let you know what that looked like for me. I stopped waiting to be asked to contribute. I started sending short, actionable intel updates directly to stakeholders before they even thought to ask.
+I don't think that needs a whole lot of explanation at the moment, so instead I let you know what that looked like for me. 
+
+- I stopped waiting to be asked to contribute. I started sending short, actionable intel updates directly to stakeholders before they even thought to ask.
 
 - I linked my work to their business pain. Not “threat actor X used technique Y” but “if this actor succeeds, our key revenue-generating systems are at risk.”
 
