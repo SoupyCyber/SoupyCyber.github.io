@@ -6,7 +6,7 @@ tags: [posts]
 author: Levi.
 ---
 
-## No One’s Saving You a Spot...at least not yet.
+### No One’s Saving You a Spot...at least not yet.
 
 It’s late. Again. And I’m staring at the same screen I was staring at this morning, this afternoon, 10 minutes ago. But I’m thinking tonight about something no one tells you when you get into CTI, or cyber in general:
 
@@ -14,7 +14,7 @@ It’s late. Again. And I’m staring at the same screen I was staring at this m
 
 -----------------------------
 
-## When I realized this
+### When I realized this
 
 Ok, ok. Maybe that sounds a bit drastic, but the idea is correct. In fact, I remember when I first got into CTI (hurray for contract positions becoming FTE!) a few years ago. And I remember thinking *"How do I get people to invite me to stuff?"* Or *"How can I make sure I'm included where I want to be, and where I think I should be"*
 
