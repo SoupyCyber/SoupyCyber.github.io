@@ -14,7 +14,7 @@ It’s late. Again. And I’m staring at the same screen I was staring at this m
 
 -----------------------------
 
-### When I realized this
+### When I realized this...
 
 Ok, ok. Maybe that sounds a bit drastic, but the idea is correct. In fact, I remember when I first got into CTI (hurray for contract positions becoming FTE!) a few years ago. And I remember thinking *"How do I get people to invite me to stuff?"* Or *"How can I make sure I'm included where I want to be, and where I think I should be"*
 
@@ -37,8 +37,7 @@ Spoilers: They didn't.
 --------------------------------
 ### So...I started building my OWN Seat
 
-I don't think that needs a whole lot of explanation at the moment, so instead I let you know what that looked like for me. I was talking anout the workdsnum
- I stopped waiting to be asked to contribute. I started sending short, actionable intel updates directly to stakeholders before they even thought to ask.
+I don't think that needs a whole lot of explanation at the moment, so instead I let you know what that looked like for me. I stopped waiting to be asked to contribute. I started sending short, actionable intel updates directly to stakeholders before they even thought to ask.
 
 - I linked my work to their business pain. Not “threat actor X used technique Y” but “if this actor succeeds, our key revenue-generating systems are at risk.”
 
