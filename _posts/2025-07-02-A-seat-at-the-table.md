@@ -51,7 +51,7 @@ I don't think that needs a whole lot of explanation at the moment, so instead I 
 ## A hard truth
 If you want that seat, if you want to be taken seriously, be respected and be seen - you have to build it.
 
-I mean, know buddy is gonna invite you because you're 'nice', or because you worked long last week.
+I mean, nobody is gonna invite you because you're 'nice', or because you worked long last week.
 
 But, they'll invite you when your work consistently makes an impact. And when you make them need *you.*
 
