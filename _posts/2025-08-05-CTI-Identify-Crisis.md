@@ -3,7 +3,7 @@ layout: post
 title: Cyber Threat Intelligence Identity Crisis
 subtitle: "So uh...what is you do again?"
 tags: [posts, CTI]
-author: L.
+author: Levi
 ---
 
 ## Cybersecurity...
