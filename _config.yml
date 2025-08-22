@@ -137,17 +137,17 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
-page-col: "#2A2F2D"
-text-col: "#DCDCDC"
-link-col: "#FF0197"
-hover-col: "#00FFE1"
-navbar-col: "#212523"
-navbar-text-col: "#DCDCDC"
-navbar-border-col: "#00FF0D"
-footer-col: "#212523"
-footer-text-col: "#9CA49C"
-footer-link-col: "#FF0197"
-footer-hover-col: "#00FFE1"
+page-col: "#0A0F1C"
+text-col: "#39FF14"
+link-col: "#FFFF33"
+hover-col: "#FF00FF"
+navbar-col: "#111827"
+navbar-text-col: "#00FFFF"
+navbar-border-col: "#FFFF33"
+footer-col: "#111111"
+footer-text-col: "#FF3131"
+footer-link-col: "#FFFF33"
+footer-hover-col: "#39FF14"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
