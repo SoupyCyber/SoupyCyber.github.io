@@ -139,15 +139,15 @@ navbar-var-length: false
 
 page-col: "#2A2F2D"
 text-col: "#DCDCDC"
-link-col: "#F05D5D"
-hover-col: "#E27B58"
+link-col: "#FF0197"
+hover-col: "#00FFE1"
 navbar-col: "#212523"
 navbar-text-col: "#DCDCDC"
-navbar-border-col: "#4A524E"
+navbar-border-col: "#00FF0D"
 footer-col: "#212523"
 footer-text-col: "#9CA49C"
-footer-link-col: "#F05D5D"
-footer-hover-col: "#E27B58"
+footer-link-col: "#FF0197"
+footer-hover-col: "#00FFE1"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
