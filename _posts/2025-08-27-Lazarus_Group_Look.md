@@ -23,7 +23,7 @@ Lazarus grouip begins by crafting realistic and convincing LinkedIn personas, of
 These techniques are particularly dangerous because they exploit that build in layer of trust we intrinsically have (or had) with LinkedIn, which historically has been regarded as a legitimate career platform. Some of us need jobs or are looking for jobs, so that desperation or lure of a lucrative job offer can pretty easily override suspicion.²
 
 
- ### Notable observations
+### Notable observations
 
 - What are their 'Target Sectors'? Cryptocurrency exchanges, financial institutions, and technology/cybersecurity/development roles.¹²
 
