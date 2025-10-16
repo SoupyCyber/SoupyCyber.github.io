@@ -1,0 +1,36 @@
+---
+layout: post
+title: A closer look at DERs and Microgrids, and their role in the Attack Surface
+subtitle: A CTI Analysts thoughts
+tags: [posts]
+author: Levi
+---
+
+Recently Drago's and Mandiant and released some public reporting highlighting the threat to distributed energy resources and microgrids. I wanted to take some time to write out my thoughts. Also wow! Has it really been 2 months since I posted? Been a busy set of "ber" months so far. Anyways, please check our what I've written below!
+
+
+
+## **Cybersecurity Threats to Distributed Energy Resources (DERs) and Microgrids**
+
+---
+
+Distributed Energy Resources (DERs) and microgrids are no longer fringe technologies. They are now deeply embedded in the operational fabric of industrial sectors—from manufacturing and oil & gas to data centers and critical infrastructure. Their value is clear: resilience, cost control, and flexibility. But with that value comes risk. These systems are increasingly exposed to cyber threats, and the intelligence is cleae, adversaries are actively targeting them.
+
+What we’re seeing is a shift in adversary behavior. Groups like VOLTZITE, linked to Volt Typhoon, are moving beyond reconnaissance and into sustained access operations. They’re exploiting internet-facing firewalls, VPNs, and remote access portals to gain entry into DER environments. Ransomware operators such as Akira and RansomHub are leveraging downtime and operational disruption to drive extortion. Even hacktivists groups are scanning for exposed DER assets, using screenshots of compromised interfaces for propaganda.
+
+The vulnerabilities are systemic. DERs often rely on legacy configurations—default credentials, outdated firmware, and unencrypted communications. Industrial protocols like IEC 61850, DNP3, and Modbus are frequently unmonitored, leaving operators blind to malicious activity. And because these systems are geographically distributed and remotely managed, they lack the physical and cyber protections typical of centralized infrastructure.
+
+This isn’t *just* a technical problem, but also an operational one. In manufacturing, a compromised DER controller can halt production. In oil & gas, microgrid disruptions can ripple through upstream and midstream operations. In data centers, attacks on storage-backed microgrids can trigger cascading outages. The interconnectedness of these systems: real-time data, automation, remote access—amplifies the impact of any breach.
+
+Recognizing this, the Department of Energy, through CESER and in partnership with NARUC, has developed cybersecurity baselines for electric distribution systems and DERs. These baselines are not comprehensive frameworks, but they are a critical starting point. They offer foundational guidance for DER operators, aggregators, and utilities to align on risk reduction and regulatory compliance. They also support broader national goals, including the transition to a net-zero emissions economy.
+
+At the same time, Google Cloud and Mandiant are highlighting the risks introduced by IT/OT convergence and cloud adoption. As organizations integrate cloud infrastructure and blur the lines between IT and OT, attackers are exploiting weak identity controls, poor segmentation, and exposed assets. The recommendation is clear: build digital immune systems, secure cloud architectures, and adopt holistic security strategies that span engineering, operations, and supply chain.
+
+So what does this mean?
+
+It means DERs and microgrids must be treated as core infrastructure. They require OT-specific visibility, threat-informed detection, and tested incident response capabilities. Remote access must be governed. Networks must be segmented. Vulnerabilities must be prioritized not just by severity, but by operational impact. And threat intelligence must be operationalized—translated into detection rules, response playbooks, and strategic decisions.
+
+This is not about chasing every alert...but it IS about building defensible architectures, understanding adversary behavior, and ensuring that innovation doesn’t outpace protection. DERs are here to stay. Our job is to make sure they stay secure.
+
+
+*Until next time, Stay Soupy!*
