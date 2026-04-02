@@ -31,31 +31,20 @@ This incident is significant because it's a perfect example of a high quality wa
 Additionally, there appear to be overlaps related to infrastructure and tooling linked by multiple research groups that point to DPRK activity.These factors raise the confidence that this intrusion may fit a broader North Korean tradecraft pattern, though the exact initial credential compromise remains unconfirmed.
 
 ## Incident Overview
-On March 31, 2026, malicious versions of Axios were published
-directly to npm without corresponding GitHub release tags, bypassing
-the normal release workflow and signaling direct abuse of
-maintainer publishing access.[3][2] The malicious packages added
-plain-crypto-js@4.2.1, a trojanized dependency that executed setup.js
-during installation and downloaded second-stage payloads from
-sfrclak.com:8000.[1][3]
-Huntress further documented that the attack was pre-staged roughly
-18 hours earlier when plain-crypto-js@4.2.0 was published from an
-attacker-created account to establish package history before the
-malicious 4.2.1 release was used operationally.[1] That detail
-materially changes the assessment from opportunistic package abuse
-to a planned supply chain operation intended to reduce scanner
-suspicion and accelerate trust abuse at detonation time.[1]
+On March 31, 2026, malicious versions of Axios were published directly to npm without corresponding GitHub release tags, bypassing the normal release workflow and signaling direct abuse of maintainer publishing access. The malicious packages added `plain-crypto-js@4.2.1`, a trojanized dependency that executed `setup.js` during installation and downloaded second-stage payloads from sfrclak[.]com:8000. Huntress specifically, further documented that the attack was pre-staged roughly
+18 hours earlier when `plain-crypto-js@4.2.0` was published from an attacker-created account to establish package history before the malicious 4.2.1 release was used operationally. That detail materially changes the assessment from opportunistic package abuse to a planned supply chain operation intended to reduce scanner
+suspicion and accelerate trust abuse at detonation time.
 
 ## Timeline
 | Time (UTC) | Event |
 | --- | --- |
-| 2026-03-30 @ 23:59:12 | plain-crypto-js@4.2.1 published with malicious postinstall payload. | 
-| 2026-03-31 @ 00:05:41 | Socket flagged plain-crypto-js@4.2.1 as malware, about six minutes after publication |
-| 2026-03-31 @ 00:21:58 | axios@1.14.1 published and tagged latest; Huntress assessed this as the point the attack went live. |
+| 2026-03-30 @ 23:59:12 | `plain-crypto-js@4.2.1` published with malicious postinstall payload. | 
+| 2026-03-31 @ 00:05:41 | Socket flagged `plain-crypto-js@4.2.1` as malware, about six minutes after publication |
+| 2026-03-31 @ 00:21:58 | `axios@1.14.1` published and tagged latest; Huntress assessed this as the point the attack went live. |
 | 2026-03-31 @ 00:23:27 | First Huntress-observed infection, a macOS host, occurred 89 seconds after Axios publication. |
-| 2026-03-31 @ 00:58:05 | First Huntress-observed Windows infection via wt.exe execution chain. |
-| 2026-03-31 @ 01:00:57 | axios@0.30.4 published and tagged legacy, extending the compromise to the 0.x branch |
-| ~2026-03-31 @ 03:29 | plain-crypto-js removed from npm by the npm security team. | 
+| 2026-03-31 @ 00:58:05 | First Huntress-observed Windows infection via `wt.exe` execution chain. |
+| 2026-03-31 @ 01:00:57 | `axios@0.30.4` published and tagged legacy, extending the compromise to the 0.x branch |
+| ~2026-03-31 @ 03:29 | `plain-crypto-js` removed from npm by the npm security team. | 
 | ~2026-03-31 @ 03:30 | Malicious Axios versions removed from npm. |
 
 # Technical Details
@@ -67,8 +56,7 @@ The `plain-crypto-js@4.2.1` dependency executed `node setup.js`, a JavaScript dr
 review.
 
 # Cross-Platform Observations
-Across all three platforms (Windows, Linux and MacOS), the malware used the same command vocabulary, 60-second beaconing interval, HTTP POST C2 model, and Internet Explorer 8 on Windows XP-style user-agent string, which has been described as highly anomalous in 2026. The POST bodies were crafted to resemble npm-related traffic using strings like packages.npm.org/product0, product1, and product2, an evasion measure intended to look ordinary in log review while still routing payloads by platform. The C2 endpoint http://sfrclak[.]com:8000/6202033 acted as a shared campaign path for the platform-specific loaders and beacons. That uniformity gives threat hunters multiple correlation points
-across endpoint, DNS, proxy, EDR, and NetFlow data even when individual file artifacts have been deleted by anti-forensic cleanup.
+Across all three platforms (Windows, Linux and MacOS), the malware used the same command vocabulary, 60-second beaconing interval, HTTP POST C2 model, and Internet Explorer 8 on Windows XP-style user-agent string, which has been described as highly anomalous in 2026. The POST bodies were crafted to resemble npm-related traffic using strings like packages.npm.org/product0, product1, and product2, an evasion measure intended to look ordinary in log review while still routing payloads by platform. The C2 endpoint http://sfrclak[.]com:8000/6202033 acted as a shared campaign path for the platform-specific loaders and beacons. That uniformity gives threat hunters multiple correlation points across endpoint, DNS, proxy, EDR, and NetFlow data even when individual file artifacts have been deleted by anti-forensic cleanup.
 
 ## Indicators of Compromise
 
@@ -128,9 +116,7 @@ across endpoint, DNS, proxy, EDR, and NetFlow data even when individual file art
 | Attacker account | `nrwise@proton[.]me` | Published `plain-crypto-js` pre-stage package. |
 
 ## Immediate Actions
-Roll back Axios to 1.14.0 or 0.30.3 and remove any plain-crypto-js dependency from all projects and build systems. Treat any endpoint that executed the payload as fully
-compromised and rebuild from a known-good baseline rather than cleaning in place. Rotate all credentials accessible from affected systems, including npm tokens, SSH keys, cloud credentials, CI/CD secrets, OAuth tokens, API keys, and .env secrets. Block sfrclak.com, 142.11.206.73, and related campaign infrastructure at DNS, proxy, firewall, and EDR network
-controls. Review downstream artifacts, package caches, containers, and release outputs generated by affected systems during or after the exposure window.
+Roll back Axios to `1.14.0` or `0.30.3` and remove any `plain-crypto-js` dependency from all projects and build systems. Treat any endpoint that executed the payload as fully compromised and rebuild from a known-good baseline rather than cleaning in place. Rotate all credentials accessible from affected systems, including npm tokens, SSH keys, cloud credentials, CI/CD secrets, OAuth tokens, API keys, and .env secrets. Block sfrclak[.]com, 142.11.206[.]73, and related campaign infrastructure at DNS, proxy, firewall, and EDR network controls. Review downstream artifacts, package caches, containers, and release outputs generated by affected systems during or after the exposure window.
 
 ## Hardening Recommendations
 Organizations should commit and enforce lockfiles, prefer npm ci over ad hoc npm install in pipelines, and apply install-time controls such as --ignore-scripts wherever operationally feasible. Huntress also recommended removing long-lived npm tokens and ensuring trusted publishing is not silently undermined by residual environment token precedence, which is a critical lesson for package maintainers and internal registries alike. Additional improvements should include a minimum release age policy for newly published dependencies, internal package proxying, software composition analysis with malware detection, provenance verification between npm and GitHub tags, and alerting on unusual postinstall execution chains in developer and CI/CD environments. For threat hunting teams, this event should drive permanent detections for npm install child-process anomalies, unexpected network egress from build systems, and persistence artifacts associated with package-manager execution.
