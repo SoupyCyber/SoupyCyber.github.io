@@ -135,6 +135,11 @@ controls. Review downstream artifacts, package caches, containers, and release o
 ## Hardening Recommendations
 Organizations should commit and enforce lockfiles, prefer npm ci over ad hoc npm install in pipelines, and apply install-time controls such as --ignore-scripts wherever operationally feasible. Huntress also recommended removing long-lived npm tokens and ensuring trusted publishing is not silently undermined by residual environment token precedence, which is a critical lesson for package maintainers and internal registries alike. Additional improvements should include a minimum release age policy for newly published dependencies, internal package proxying, software composition analysis with malware detection, provenance verification between npm and GitHub tags, and alerting on unusual postinstall execution chains in developer and CI/CD environments. For threat hunting teams, this event should drive permanent detections for npm install child-process anomalies, unexpected network egress from build systems, and persistence artifacts associated with package-manager execution.
 
+## References
+1. Mandiant
+2. Huntress
+3. Axios
+4. X
 ---
 
 **TLP:CLEAR – This document may be shared freely without restriction.**
@@ -147,8 +152,3 @@ Thank you for joining! Post a comment with your thoughts back on the LinkedIn po
 ### *Guard your grids, mind your mids.*
 ### *Stay Soupy, Stay Cyber!*
 
-## References
-1. Mandiant
-2. Huntress
-3. Axios
-4. X
