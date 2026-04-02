@@ -5,6 +5,9 @@ subtitle: "Open-source analysis of recent Axios npm Supply Chain Compromise"
 tags: [posts]
 author: Levi.
 ---
+## Aaaand Welcome Back!
+I honestly can't believe you came back here...*have you seen how this guys writes?!* In all seriousness welcome back yall. I hope the rest of Q1 has been less busy for you than it has been for me. Spring has sprung and I'm lovin the weather. My allergies...not so much. And the day job has been BUSY...I am an Iran desk (among other things) analyst by day, so the grind has been real during the entirety of Operation Epic Fury. But today, I wanted to post something that steps away from the Iran/US/Israel conflict, and focus on something different...Water-Hole attacks! So thanks for joining. Below is my analysis of the Axios npm Supply Chain attack based on fully open-sourced intelligence and reporting. Enjoy!
+
 
 # OPEN-SOURCE THREAT INTELLIGENCE
 *A Review of What Happened*
@@ -137,6 +140,12 @@ Organizations should commit and enforce lockfiles, prefer npm ci over ad hoc npm
 **TLP:CLEAR – This document may be shared freely without restriction.**
 
 *Open‑source analysis. Not affiliated with any government agency, company, or intelligence organization.*
+
+## So, there you have it folks!
+Thank you for joining! Post a comment with your thoughts back on the LinkedIn post. Lets connect and discuss. Thats one thing I've noticed in the intelligence community, is we don't always share feedback! Like I said, thanks for reading, and as always - 
+
+### *Guard your grids, mind your mids.*
+### *Stay Soupy, Stay Cyber!*
 
 ## References
 1. Mandiant
