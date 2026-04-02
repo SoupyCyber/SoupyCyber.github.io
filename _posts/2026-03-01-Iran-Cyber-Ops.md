@@ -310,7 +310,6 @@ Readers requiring authoritative, current, and potentially non‑public threat in
 1. CISA. “Iranian Cyber Actors’ Brute Force and Credential Access Activity Compromises Critical Infrastructure Organizations.” Joint Advisory AA24‑290A (FBI / CISA / NSA / CSE / AFP / ASD ACSC). October 16, 2024. <https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-290a>  
 2. CISA / NSA / FBI. “Iranian Government‑Sponsored APT Actors Compromising U.S. Organizations.” Alert AA21‑321A. November 17, 2021. <https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-321a>  
 3. CISA / FBI. “StopRansomware: Iran Government‑Sponsored APT Actors Conducting Ransomware Operations.” Alert AA22‑257A. September 14, 2022. <https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-257a>  
-4. ODNI. “Annual Threat Assessment of the U.S. Intelligence Community.” February 5, 2024. Iran section, pp. 14–17. <https://www.dni.gov/files/ODNI/documents/assessments/ATA-2024-Unclassified-Report.pdf>  
-… *(continue with the remaining numbered references as in your source document)*
+4. ODNI. “Annual Threat Assessment of the U.S. Intelligence Community.” February 5, 2024. Iran section, pp. 14–17. <https://www.dni.gov/files/ODNI/documents/assessments/ATA-2024-Unclassified-Report.pdf> 
 
 ```
